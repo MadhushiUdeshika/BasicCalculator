@@ -41,30 +41,30 @@ public class Calculator extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        calculator.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
+        calculator.setFont(new java.awt.Font("Cambria", 1, 36)); // NOI18N
         calculator.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         calculator.setText("CALCULATOR");
         calculator.setAlignmentX(0.5F);
         calculator.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        num1.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
+        num1.setFont(new java.awt.Font("Cambria", 1, 18)); // NOI18N
         num1.setText("1st Number");
 
-        number1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        number1.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
 
-        num2.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
+        num2.setFont(new java.awt.Font("Cambria", 1, 18)); // NOI18N
         num2.setText("2nd Number");
 
-        number2.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        number2.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
 
-        resultLabel.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
+        resultLabel.setFont(new java.awt.Font("Cambria", 1, 18)); // NOI18N
         resultLabel.setText("Result");
 
-        resultField.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
+        resultField.setFont(new java.awt.Font("Cambria", 1, 18)); // NOI18N
         resultField.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         resultField.setText("0");
 
-        plus.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
+        plus.setFont(new java.awt.Font("Cambria", 1, 36)); // NOI18N
         plus.setText("+");
         plus.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         plus.addActionListener(new java.awt.event.ActionListener() {
@@ -73,7 +73,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
-        minus.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
+        minus.setFont(new java.awt.Font("Cambria", 1, 36)); // NOI18N
         minus.setText("-");
         minus.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         minus.addActionListener(new java.awt.event.ActionListener() {
@@ -82,7 +82,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
-        multiplication.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
+        multiplication.setFont(new java.awt.Font("Cambria", 1, 36)); // NOI18N
         multiplication.setText("x");
         multiplication.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         multiplication.addActionListener(new java.awt.event.ActionListener() {
@@ -91,7 +91,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
-        division.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
+        division.setFont(new java.awt.Font("Cambria", 1, 36)); // NOI18N
         division.setText("/");
         division.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         division.addActionListener(new java.awt.event.ActionListener() {
@@ -100,7 +100,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
-        clear.setFont(new java.awt.Font("Comic Sans MS", 1, 18)); // NOI18N
+        clear.setFont(new java.awt.Font("Cambria", 1, 24)); // NOI18N
         clear.setText("Clear");
         clear.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         clear.addActionListener(new java.awt.event.ActionListener() {
@@ -113,10 +113,6 @@ public class Calculator extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(calculator, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(105, 105, 105))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -130,13 +126,10 @@ public class Calculator extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(num2, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(num1, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(49, 49, 49)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(49, 49, 49)
-                                        .addComponent(number1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(49, 49, 49)
-                                        .addComponent(number2)))))
+                                    .addComponent(number1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(number2))))
                         .addGap(0, 28, Short.MAX_VALUE))
                     .addComponent(clear, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
@@ -150,6 +143,10 @@ public class Calculator extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(division)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(calculator)
+                .addGap(88, 88, 88))
         );
 
         layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {division, minus, multiplication, plus});
@@ -173,7 +170,7 @@ public class Calculator extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(resultLabel)
                     .addComponent(resultField, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(plus, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(minus, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)

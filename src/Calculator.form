@@ -23,11 +23,6 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              <Component id="calculator" min="-2" pref="196" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
-          </Group>
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -43,15 +38,10 @@
                                   <Component id="num2" min="-2" pref="105" max="-2" attributes="0"/>
                                   <Component id="num1" min="-2" pref="105" max="-2" attributes="0"/>
                               </Group>
+                              <EmptySpace min="49" pref="49" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                                      <Component id="number1" linkSize="5" min="-2" pref="205" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                                      <Component id="number2" linkSize="5" max="32767" attributes="0"/>
-                                  </Group>
+                                  <Component id="number1" linkSize="5" min="-2" pref="205" max="-2" attributes="0"/>
+                                  <Component id="number2" linkSize="5" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -71,6 +61,11 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="division" linkSize="1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="calculator" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -94,7 +89,7 @@
                   <Component id="resultLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="resultField" linkSize="4" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="32" max="32767" attributes="0"/>
+              <EmptySpace pref="23" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="plus" linkSize="2" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                   <Component id="minus" linkSize="2" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
@@ -112,7 +107,7 @@
     <Component class="javax.swing.JLabel" name="calculator">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="24" style="1"/>
+          <Font name="Cambria" size="36" style="1"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="CALCULATOR"/>
@@ -127,7 +122,7 @@
     <Component class="javax.swing.JLabel" name="num1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="14" style="1"/>
+          <Font name="Cambria" size="18" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="1st Number"/>
       </Properties>
@@ -135,14 +130,14 @@
     <Component class="javax.swing.JTextField" name="number1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="14" style="0"/>
+          <Font name="Cambria" size="18" style="0"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="num2">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="14" style="1"/>
+          <Font name="Cambria" size="18" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="2nd Number"/>
       </Properties>
@@ -150,14 +145,14 @@
     <Component class="javax.swing.JTextField" name="number2">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="14" style="0"/>
+          <Font name="Cambria" size="18" style="0"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="resultLabel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="14" style="1"/>
+          <Font name="Cambria" size="18" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Result"/>
       </Properties>
@@ -165,7 +160,7 @@
     <Component class="javax.swing.JLabel" name="resultField">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="14" style="1"/>
+          <Font name="Cambria" size="18" style="1"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="0"/>
@@ -174,7 +169,7 @@
     <Component class="javax.swing.JButton" name="plus">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="36" style="1"/>
+          <Font name="Cambria" size="36" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="+"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -186,7 +181,7 @@
     <Component class="javax.swing.JButton" name="minus">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="36" style="1"/>
+          <Font name="Cambria" size="36" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="-"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -198,7 +193,7 @@
     <Component class="javax.swing.JButton" name="multiplication">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="36" style="1"/>
+          <Font name="Cambria" size="36" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="x"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -210,7 +205,7 @@
     <Component class="javax.swing.JButton" name="division">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="36" style="1"/>
+          <Font name="Cambria" size="36" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="/"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -222,7 +217,7 @@
     <Component class="javax.swing.JButton" name="clear">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Comic Sans MS" size="18" style="1"/>
+          <Font name="Cambria" size="24" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Clear"/>
         <Property name="horizontalTextPosition" type="int" value="0"/>
